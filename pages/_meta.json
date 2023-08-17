@@ -1,15 +1,16 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
+  "about": "Me",
+  "works": {
+    "type": "page"
+  },
+  "study":{
     "type": "page"
   },
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://www.linkedin.com/in/homing-lau-43210510b/",
     "newWindow": true
   }
 }

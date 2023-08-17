@@ -1,11 +1,37 @@
-# Introduction
+import Image from 'next/image'
+import { Cards, Card } from 'nextra/components'
+
+# Hello, 你好, こんにちは.
+
+My name is <span style={{fontSize:24}}> Ming </span>. Welcome to my page.
+
+This is a simple webpage introducing myself and my works.
+
+## Who am I?
+
+A **fresh graduated postgraduate programmer** from the [T440 mobile application development program (MADS)](https://www.georgebrown.ca/programs/mobile-application-development-and-strategy-program-postgraduate-t440) in George Brown College. 
+
+<Image src="https://www.georgebrown.ca/themes/custom/de_theme/logo.svg" width={500} height={500}/>
+
+[more...](/about)
+
+
+## What's up?
+
+I am looking for an opportunity to get into the **software development** industry. 
+
+But at the same time, I am still open to working in the **automation control systems** area.
+
+## What did i do before?
  
-Welcome to Nextra! This is a basic docs template. You can use it as a starting point for your own project :)
+<Cards>
+  <Card title="School Projects" href="/works/SchoolProjects" />
+  <Card title="Job Projects" href="/works/Programmer" />
+</Cards>
 
-## What is Nextra?
+## Where did i study before?
 
-A **simple**, **powerful** and **flexible** site generation framework with everything you love from Next.js.
-
-## Documentation
-
-The documentation is available at [https://nextra.site](https://nextra.site).
+<Cards>
+  <Card title="Postgraduate" href="/study/GeorgeBrown" />
+  <Card title="UnderGraduate" href="/study/PolyU" />
+</Cards>

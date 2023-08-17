@@ -1,18 +1,38 @@
 import React from 'react'
-import { DocsThemeConfig } from 'nextra-theme-docs'
 
-const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+export default {
+  logo: <span style={{ marginLeft: '.4em', fontWeight: 800 }}>Ming Lau</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/homing1923',
+  },
+  search:{
+    component: (
+      <></>
+    ),
+    emptyResult: (
+      <span>Nothing Found!</span>
+    ),
+    error: "Loading Err....",
+    placeholder: "Search In here",
+    
   },
   chat: {
-    link: 'https://discord.com',
+    link: 'https://www.linkedin.com/in/homing-lau-43210510b/',
+    icon: (
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" width="24" height="24"/>
+    )
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/homing1923/next-profo',
   footer: {
-    text: 'Nextra Docs Template',
+    text: 'Ming Lau @ 2023',
   },
+  feedback: {
+    content: (
+      <span>Question? Reach me on github</span>
+    )
+  },
+  navigation:{
+    prev: false,
+    next: false
+  }
 }
-
-export default config
