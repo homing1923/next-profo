@@ -1,4 +1,4 @@
-import React from 'react'
+import { useState, useCallback, memo} from 'react'
 import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
 
 const containerStyle = {
@@ -12,9 +12,9 @@ function GGMap({prop}) {
     googleMapsApiKey: "AIzaSyC13BrmzS3wfR1j7--K55HFy9qrQb1qN60"
   })
 
-  const [map, setMap] = React.useState(null)
+  const [map, setMap] = useState(null)
 
-  const onLoad = React.useCallback(function callback(map) {
+  const onLoad = useCallback(function callback(map) {
     // This is just an example of getting and using the map instance!!! don't just blindly copy!
     const bounds = new window.google.maps.LatLngBounds(prop.center);
     map.fitBounds(bounds);
@@ -22,7 +22,7 @@ function GGMap({prop}) {
     setMap(map)
   }, [])
 
-  const onUnmount = React.useCallback(function callback(map) {
+  const onUnmount = useCallback(function callback(map) {
     setMap(null)
   }, [])
 
@@ -39,4 +39,4 @@ function GGMap({prop}) {
   ) : <></>
 }
 
-export default React.memo(GGMap)
+export default memo(GGMap)
