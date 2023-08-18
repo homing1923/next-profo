@@ -9,7 +9,7 @@ const containerStyle = {
 function GGMap({prop}) {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: "AIzaSyC13BrmzS3wfR1j7--K55HFy9qrQb1qN60"
+    googleMapsApiKey: "AIzaSyC5BbhHRpZDvC0dLI_QkgTevZ6hlD3Knrg"
   })
 
   const [map, setMap] = useState(null)
