@@ -1,7 +1,48 @@
 import { Steps, Cards, Card, Callout } from 'nextra/components'
 
-<Callout style={{position: 'fixed', top: 0}} type="warning" emoji="⚠️">
-  This page is still under contruction.
-</Callout>
+import YoutubeEmbed from '/components/videoplayer'
 
 # World Trade Centre
+
+## Description
+
+This is control program of a facade lighting.
+The wall consists of more than 200 strings of lighting modules, each of them needed to be programmed in order to run as a whole wall.
+
+A single board for 1 piece of the wall.
+![WTC2_board](/../public/pic/WTC_2.jpg)
+
+## Participation
+
+<Steps>
+
+### Planing
+- Creating wiring diagrams based on preliminary equipment diagrams on CAD software (AutoCAD, GstarCAD).
+
+The building limited the way of wiring for the boards, some deadzone which cannot be reached after construction finished. 
+
+This is the draft of the way of wiring.
+
+![WTC4_string](/../public/pic/WTC_4.jpg)
+
+### Execution
+
+- Programming lighting controller such e:cue SYMPHOLIGHT for DMX.
+
+![WTC1_sym](/../public/pic/WTC_1.jpg)
+
+- Deploying the program and debugging.
+
+![WTC3_wall](/../public/pic/WTC_3.jpg)
+
+### Closure (Continuous)
+
+- Creating user manuals for functions and feature that the system provided.
+- Providing user training on how to use the system.
+
+The actual running video after deploying the program.
+
+<YoutubeEmbed embedId="LCrXBog1Adc"/>
+
+
+</Steps>
