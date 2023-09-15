@@ -24,7 +24,8 @@
     "nextra-theme-docs": "latest",
     "pnpm": "^8.6.12",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-photo-album": "^2.3.0"
   },
   "devDependencies": {
     "@types/node": "18.11.10",

@@ -1,12 +1,6 @@
 {
   "index": "Introduction",
   "about": "Me",
-  // "works": {
-  //   "type": "page"
-  // },
-  // "study":{
-  //   "type": "page"
-  // },
   "contact": {
     "title": "Contact ↗",
     "type": "page",
