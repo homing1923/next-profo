@@ -1,5 +1,5 @@
 import PhotoAlbum from "react-photo-album";
-import NextJsImage from "/components/NextJsImage";
+import NextJsImage from "./NextJsImage";
 
 const Gallery = ({photos}) => (
     <div>
