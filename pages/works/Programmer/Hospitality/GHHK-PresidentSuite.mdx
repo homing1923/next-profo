@@ -1,7 +1,41 @@
 import { Steps, Cards, Card, Callout } from 'nextra/components'
 
-<Callout style={{position: 'fixed', top: 0}} type="warning" emoji="⚠️">
-  This page is still under contruction.
-</Callout>
+import Gallery from "/components/gallery"
 
 # GrandHyatt President Suite
+
+## Description
+
+This is AV system rebuilt project. Started with a site survey that gathered the infomation needed to rebuilt the system using Crestron by reverse-engineering.
+
+The room consist of two AV area, the living room and bedroom, and all the controls on AV can be done on the ipads.
+
+## Participation
+
+<Steps>
+
+### Planing
+- On-site surveying for system requirement.
+
+<Gallery photos={[
+    {src:"/pic/GHHK3608_3.jpg", width: 50, height: 50},
+    {src:"/pic/GHHK3608_4.jpg", width: 50, height: 50}
+    ]}
+/>
+
+### Execution
+
+- Programming control systems using crestron and replicate the GUI.
+
+Original GUI on AMX
+![GHHK_3608_5](/pic/GHHK3608_5.png)
+
+Rebuilt GUI on Crestron
+![GHHK_3608_1](/pic/GHHK3608_1.png)
+![GHHK_3608_2](/pic/GHHK3608_2.png)
+
+### Closure (Continuous)
+
+- Performing after-sale on-site maintenance and remote troubleshooting services. Training the user how to use the program and basic troubleshooting techniques.
+
+</Steps>
